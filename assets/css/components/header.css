@@ -1,8 +1,6 @@
 .header {
-  background-color: red;
-
   width: 100%;
-  /*background: #fff; */
+  background: #fff; 
   border-bottom: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
@@ -16,10 +14,15 @@
   height: 80px;
 }
 
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .logo {
-  height: 60px;
+  max-height: 70px;
   width: auto;
-  object-fit: contain;
 }
 
 .nav {
